@@ -68,7 +68,7 @@ app.post("/api/topup", async (req, res) => {
       PartyA: formattedPhone,
       PartyB: shortcode,
       PhoneNumber: formattedPhone,
-      CallBackURL: "https://<your-render-domain>.onrender.com/callback",
+      CallBackURL: "https://whisprr-mpesa.onrender.com/callback",
       AccountReference: `WHISPRR_${userId}`,
       TransactionDesc: `Whisprr Wallet Top-Up - User ${userId}`,
     };
